@@ -1,0 +1,53 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ui.massive.image, .ui.massive.images .image, .ui.massive.images img, .ui.massive.images svg {
+  width: 1129px;
+  height: auto;
+  font-size: 1.71428571rem;
+}
+
+/* .ui.card, .ui.cards>.card {
+  max-width: 120%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  min-height: 0;
+  background: #fff;
+  padding: 0;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 13px -7px 9px 0 #8f8fd7, 0 0 0 0px #9494e6;
+  transition: box-shadow .1s ease,transform .1s ease;
+  z-index: '';
+} */
+
+
+#footer {
+  color: var(--bs-gray);
+}
+
+.ui.card .content img, .ui.cards>.card .content img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 150px;
+}
+
+
+
